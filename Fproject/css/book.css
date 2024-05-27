@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(rgba(67, 195, 255, 0.418), rgba(0, 0, 0, 0.185)), url(https://e1.pxfuel.com/desktop-wallpaper/104/501/desktop-wallpaper-login-backgrounds-1-login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.booking-form-box {
+    max-width: 400px;
+    max-height: 100%;
+    height: 100%; /* Set your desired maximum height */
+    margin: 2% auto 0; /* Decreased margin at the top */
+}
+
+.booking-form {
+    padding: 20px;
+}
+
+.booking-form label {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff !important;
+}
+
+.input-grp {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px; /* Added margin between input groups */
+}
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+.form-control {
+    font-size: 14px !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    width: calc(100% - 22px); /* Adjusted width to fit the container */
+}
+
+
+.custom-select {
+    color: #fff !important;
+    font-size: 14px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+    background: transparent !important;
+    width: calc(50% - 12px); /* Adjusted width to make them side by side */
+    margin-right: 10px; /* Added margin between select options */
+}
+
+.custom-select option {
+    color: #333;
+}
+
+.flight {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+}
+
+.flight:hover {
+    background: #fff !important;
+    color: #000 !important;
+    transition: 0.5s;
+}
